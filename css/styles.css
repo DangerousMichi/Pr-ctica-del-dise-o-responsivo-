@@ -1,0 +1,67 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+thead td{
+    background-color: darkcyan;
+    color: rgb(248, 248, 248);
+}
+table{
+    border: 3px solid darkcyan;
+    width: 80%;
+    border-spacing: 0;
+}
+
+td{/*column*/
+    text-align: center;
+    border: 1px solid darkcyan;
+}
+
+tr:nth-child(odd){ /*filas*/
+    background-color: cadetblue;
+}
+
+.description{
+ width: 40%;
+}
+
+.contenedor-tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.minitabla{
+    margin: 100px;
+    border: 3px solid darkcyan;
+    width: 80%;
+}
+
+.encabezado{
+    background-color: darkcyan;
+    
+}
+
+
+@media (min-width: 1170px) and (max-width:2000px){
+    .contenedor-minitabla{
+        display: none;
+    }
+}
+
+@media (min-width:300px) and (max-width:1169px){
+    .contenedor-tabla{
+        display: none;
+    }
+}
+
+h1{
+    text-align: center;
+    margin: 80px;
+}
